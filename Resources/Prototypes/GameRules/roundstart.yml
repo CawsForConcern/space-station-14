@@ -244,7 +244,7 @@
     antags:
     - !type:LinearAntagCount
       proto: Traitor
-      playerRatio: 12 # Featherlight
+      playerRatio: 15 # Featherlight
       range:
         min: 1
         max: 2 # Featherlight
