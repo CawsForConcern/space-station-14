@@ -224,7 +224,7 @@
   - type: AntagRandomObjectives
     sets:
     - groups: TraitorObjectiveGroups
-    maxDifficulty: 8 # Featherlight. Less traitors, but give 'em more to do.
+    maxDifficulty: 5
   - type: AntagSelection
     agentName: traitor-round-end-agent-name
   - type: DynamicRuleCost
