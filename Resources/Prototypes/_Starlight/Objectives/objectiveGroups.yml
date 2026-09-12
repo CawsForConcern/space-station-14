@@ -41,7 +41,7 @@
   id: VampireObjectiveGroups
   weights:
     VampireObjectiveGroupSteal: 1
-    VampireObjectiveGroupKill: 1
+    #VampireObjectiveGroupKill: 1 # Featherlight - no RR, and vampires only have RR kills
     VampireObjectiveGroupDrain: 1
     VampireObjectiveGroupState: 1
 
