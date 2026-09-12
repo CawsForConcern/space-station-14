@@ -102,6 +102,7 @@
   - type: DynamicRuleCost
     cost: 150 # Lowering this, since BasicRoundstartVariation doesn't do much in Dynamic due to how Dynamic functions.
 
+# Featherlight start - Just simple antagonists.
 - type: entity
   parent: BaseGameRule
   id: SubGamemodesRuleNoChangelings
@@ -109,19 +110,10 @@
   - type: SubGamemodes
     rules:
     - id: Thief
-      prob: 0.43 # Starlight. Adds up to 1.
-    - id: VampireLess # Starlight. The rework is here.
-      prob: 0.25
-    - id: SubWizard
-      prob: 0.05 # We can go back down to 0.05, since they scale now.
-    - id: Devil
-      prob: 0.10 # rare Starlight: More devils
-    #- id: SubXenoborgs # Subgamemode replaced with SubXenoborgs
-    #  prob: 0.05
-    #- id: SubBrighteye # Brighteye is disabled until more work is put in.
-    #  prob: 0.05 # We can go back down to 0.05, since they scale now.
-    - id: SiliconLiberation
-      prob: 0.17
+      prob: 0.80
+    - id: VampireLess
+      prob: 0.20
+# Featherlight end
 
 - type: entity
   parent: BaseGameRule

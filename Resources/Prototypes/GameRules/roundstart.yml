@@ -224,7 +224,7 @@
   - type: AntagRandomObjectives
     sets:
     - groups: TraitorObjectiveGroups
-    maxDifficulty: 6 # Starlight. Ultrapop + ton of new targets means some objectives become really easy in the chaos.
+    maxDifficulty: 8 # Featherlight. Less traitors, but give 'em more to do.
   - type: AntagSelection
     agentName: traitor-round-end-agent-name
   - type: DynamicRuleCost
@@ -235,7 +235,7 @@
   id: Traitor
   components:
   - type: GameRule
-    minPlayers: 5
+    minPlayers: 1 # Featherlight
     delay:
       min: 240
       max: 420
@@ -244,10 +244,10 @@
     antags:
     - !type:LinearAntagCount
       proto: Traitor
-      playerRatio: 14.5 # Starlight
+      playerRatio: 12 # Featherlight
       range:
         min: 1
-        max: 24 # Starlight
+        max: 2 # Featherlight
 
 - type: entity
   id: TraitorReinforcement # This shouldn't be in here but I'm not sure where to put it :(
