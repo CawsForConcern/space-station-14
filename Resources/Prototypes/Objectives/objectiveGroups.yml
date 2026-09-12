@@ -56,8 +56,8 @@
 - type: weightedRandom
   id: TraitorObjectiveGroupKill
   weights:
-    KillRandomPersonObjective: 1
-    KillRandomHeadObjective: 0.25
+    #KillRandomPersonObjective: 1 # Featherlight - No RR traitor objectives. Teach a lesson is good enough for us.
+    #KillRandomHeadObjective: 0.25 # Featherlight - No RR traitor objectives. Teach a lesson is good enough for us.
     TeachRandomPersonObjective: 1 #Starlight Teach them a lesson
     TeachRandomHeadObjective: 0.25 # Starlight Teach them a lesson
 
