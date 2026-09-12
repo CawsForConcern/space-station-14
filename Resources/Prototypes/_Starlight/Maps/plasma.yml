@@ -76,7 +76,7 @@
             Musician: [ 1, 1 ]
             #silicon (3 - 5)
             Borg: [ 2, 4 ]
-            StationAi: [ 1, 1 ]
+            #StationAi: [ 1, 1 ] # Featherlight - off for low pop
             #law
             Magistrate: [ 1, 1 ]
             IAA: [ 2, 2 ]

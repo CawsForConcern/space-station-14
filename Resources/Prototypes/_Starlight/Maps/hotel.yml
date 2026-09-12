@@ -69,7 +69,7 @@
             Reporter: [ 1, 2 ]
             RadioHost: [ 1, 1 ]
             #silicon
-            StationAi: [ 1, 1 ]
+            #StationAi: [ 1, 1 ] # Featherlight - off for low pop
             Borg: [ 3, 6 ]
             #law
             Magistrate: [ 1, 1 ]

@@ -72,7 +72,7 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             #silicon
-            StationAi: [ 1, 1 ]
+            #StationAi: [ 1, 1 ] # Featherlight - off for low pop
             Borg: [ 2, 2 ]
             #law
             Magistrate: [ 1, 1 ]

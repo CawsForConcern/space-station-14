@@ -80,7 +80,7 @@
             Performer: [ 2, 2 ]
 
             # Silicon
-            StationAi: [ 1, 1 ]
+            #StationAi: [ 1, 1 ] # Featherlight - off for low pop
             Borg: [ 2, 2 ]
 
             # Representatives

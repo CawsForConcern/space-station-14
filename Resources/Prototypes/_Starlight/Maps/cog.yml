@@ -72,7 +72,7 @@
             Boxer: [ 2, 2]
             Performer: [ 2, 3 ]
             #silicon
-            StationAi: [ 1, 1 ]
+            #StationAi: [ 1, 1 ] # Featherlight - off for low pop
             Borg: [ 4, 5 ]
             #law
             Magistrate: [ 1, 1 ]
