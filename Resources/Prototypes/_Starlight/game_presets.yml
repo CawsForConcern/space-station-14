@@ -10,9 +10,12 @@
   minPlayers: 5
   showInVote: false
   rules:
-    - SpaceTrafficControlEventScheduler
-    - ThiefGamerule
-    - BasicRoundstartVariation
+  # Featherlight start
+    - SpaceTrafficControlFriendlyEventScheduler
+    #- SpaceTrafficControlEventScheduler
+    #- ThiefGamerule
+    #- BasicRoundstartVariation
+  # Featherlight end
 
 - type: gamePreset
   id: SubXenoborgs
