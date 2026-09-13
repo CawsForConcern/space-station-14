@@ -6,7 +6,7 @@
     - eventlite
     - eventdiet
   name: eventlight-title
-  description: eventlight-description
+  description: featherlight-eventlight-description # featherlight
   minPlayers: 5
   showInVote: false
   rules:

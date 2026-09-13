@@ -17,13 +17,3 @@
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
     state: Hammer_Painting
-
-- type: entity
-  parent: PaintingBase
-  id: PaintingRustle
-  name: Portrait of Rustle Blackfeather
-  description: A fabulous purple bird in her leather jacket. Signed by Jamie Millet.
-  components:
-  - type: Sprite
-    sprite: _Starlight/Structures/Wallmounts/paintings.rsi
-    state: Rustle_Painting

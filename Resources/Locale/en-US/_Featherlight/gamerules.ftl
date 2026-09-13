@@ -1,0 +1,1 @@
+featherlight-eventlight-description = Nothing ever happens.
