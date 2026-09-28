@@ -1,5 +1,5 @@
 - type: entity
-  id: PottedPlantAltWitchesBroom
+  id: PottedPlantAltWitchesBloom
   parent: PottedPlantBase
   name: witches bloom
   description: A small plant. Its coarse, dark leaves cradle a purple bulb. It's warm to the touch-- and if you move it, you can hear water slosh around inside.
