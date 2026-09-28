@@ -1,0 +1,9 @@
+- type: entity
+  id: PottedPlantAltWitchesBroom
+  parent: PottedPlantBase
+  name: witches bloom
+  description: A small plant. Its coarse, dark leaves cradle a purple bulb. It's warm to the touch-- and if you move it, you can hear water slosh around inside.
+  components:
+  - type: Sprite
+    sprite: _Featherlight/Structures/Furniture/Plants/potted_plants.rsi
+    state: plant-witchesbloom
