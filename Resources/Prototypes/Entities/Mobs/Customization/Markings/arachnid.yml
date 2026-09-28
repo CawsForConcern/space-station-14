@@ -16,7 +16,16 @@
   sprites:
   - sprite: Mobs/Customization/Arachnid/chelicerae.rsi
     state: inwards
-
+# featherlight start
+- type: marking
+  id: ArachnidCheliceraeCenter
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Arachnid, NeoArachnid, Neocyte] # FH + Starlight
+  sprites:
+  - sprite: _Featherlight/Mobs/Customization/Arachnid/chelicerae.rsi
+    state: center
+# featherlight end
 # Appendages
 - type: marking
   id: ArachnidAppendagesDefault
@@ -351,14 +360,34 @@
   sprites:
   - sprite: Mobs/Customization/Arachnid/overlay.rsi
     state: fuzzy
+
 # Featherlight start
 - type: marking
   id: ArachnidOverlayPholcus
-  bodyPart: Chest
-  markingCategory: Overlay
+  bodyPart: Head
+  markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Arachnid, NeoArachnid, Neocyte] # FH + Starlight
   sprites:
   - sprite: _Featherlight/Mobs/Customization/Arachnid/overlay.rsi
     state: pholcus
+
+- type: marking
+  id: ArachnidEyeCover
+  bodyPart: Eyes
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Arachnid, NeoArachnid, Neocyte] # FH + Starlight
+  sprites:
+  - sprite: _Featherlight/Mobs/Customization/Arachnid/overlay.rsi
+    state: eye-cover
+
+- type: marking
+  id: ArachnidEyePholcus
+  bodyPart: Eyes
+  markingCategory: Head
+  speciesRestriction: [Arachnid, NeoArachnid, Neocyte] # FH + Starlight
+  sprites:
+  - sprite: _Featherlight/Mobs/Customization/Arachnid/overlay.rsi
+    state: pholcus-eyes
 # Featherlight end
