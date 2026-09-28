@@ -351,4 +351,14 @@
   sprites:
   - sprite: Mobs/Customization/Arachnid/overlay.rsi
     state: fuzzy
-
+# Featherlight start
+- type: marking
+  id: ArachnidOverlayPholcus
+  bodyPart: Chest
+  markingCategory: Overlay
+  forcedColoring: true
+  speciesRestriction: [Arachnid, NeoArachnid, Neocyte] # FH + Starlight
+  sprites:
+  - sprite: _Featherlight/Mobs/Customization/Arachnid/overlay.rsi
+    state: pholcus
+# Featherlight end
