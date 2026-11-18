@@ -10,6 +10,14 @@
     {
       "name": "pholcus",
       "directions": 4
+    },
+    {
+      "name": "eye-cover",
+      "directions": 4
+    },
+    {
+      "name": "pholcus-eyes",
+      "directions": 4
     }
   ]
 }
