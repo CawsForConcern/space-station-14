@@ -36,6 +36,6 @@
   id: LanguageTraits
   name: trait-category-languages
   priority: 50
-  maxTraits: 69420 # featherlight
-  maxPoints: 69420 # featherlight
+  maxTraits: -1 # featherlight
+  maxPoints: -1 # featherlight
   accentColor: "#fffb00"
